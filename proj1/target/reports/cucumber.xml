@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="3" passed="0" skipped="0" total="3">
+    <suite duration-ms="404" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="404" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="To check the functionality for creation of new user">
+                <test-method duration-ms="0" finished-at="2022-05-05T05:44:50.859083400Z" name="Create new user" started-at="2022-05-05T05:44:50.726070800Z" status="FAIL">
+                    <exception class="The scenario has pending or undefined step(s)">
+                        <message><![CDATA[Given Navigate the home page and provide new data...........................undefined
+When Post data..............................................................skipped
+Then Validate the creation of new user......................................skipped
+]]></message>
+                        <full-stacktrace><![CDATA[The scenario has pending or undefined step(s)]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+            <class name="To retrieve the data for particular user using ID">
+                <test-method duration-ms="0" finished-at="2022-05-05T05:44:50.897084700Z" name="Get user detail with the help of his/her ID" started-at="2022-05-05T05:44:50.893084Z" status="FAIL">
+                    <exception class="The scenario has pending or undefined step(s)">
+                        <message><![CDATA[Given Navigate to the home page.............................................undefined
+When Provide the ID of the user.............................................skipped
+Then Validate positive response code and output.............................skipped
+]]></message>
+                        <full-stacktrace><![CDATA[The scenario has pending or undefined step(s)]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+            <class name="To check and validate login functionality with positive response code received">
+                <test-method duration-ms="0" finished-at="2022-05-05T05:44:50.912086400Z" name="Login with a positive set of credential" started-at="2022-05-05T05:44:50.907086600Z" status="FAIL">
+                    <exception class="The scenario has pending or undefined step(s)">
+                        <message><![CDATA[Given user is on login page.................................................undefined
+When user login into the app using credentials username and password........skipped
+Then user is navigated to Home page.........................................skipped
+]]></message>
+                        <full-stacktrace><![CDATA[The scenario has pending or undefined step(s)]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>
